@@ -41,8 +41,7 @@ function App() {
     label="from"
     amount={amount}
     currencyOptions={options}
-    onCurrencyChange={(currency) => setFrom
-      (currency)}
+    onCurrencyChange={(currency) => setFrom(currency)}
     onAmountChange={(amount) => setAmount(amount)}
     selectedCurrency={from}
     />
@@ -60,7 +59,7 @@ function App() {
     currencyOptions={options}
     onCurrencyChange={(currency) => setTo(currency)}
     selectedCurrency={to} 
-    amountDisabled={true}
+    amountDisabled
     />
   </div>
   <button type='submit'
